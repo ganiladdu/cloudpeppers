@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitCloudPepparsApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Main");
 		SpringApplication.run(GitCloudPepparsApplication.class, args);
 	}
 
